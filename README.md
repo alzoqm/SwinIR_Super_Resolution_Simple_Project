@@ -29,7 +29,7 @@ kaggle danbooru2020 dataset: https://www.kaggle.com/muoncollider/danbooru2020<br
 
 ## Result
 
-|Low Resolution|High Resolution(2x)|
+|Low Resolution|Output High Resolution(2x)|
 |:--------:|:---------:|
 |<img src="https://user-images.githubusercontent.com/70330480/152933821-72a75ec0-1f62-4434-88ac-e026db2bb683.png" width="100%" height="100%">|<img src="https://user-images.githubusercontent.com/70330480/152933888-7f6961d3-9712-40a7-b383-fc5da89f6650.png" width="100%" height="100%">
 
