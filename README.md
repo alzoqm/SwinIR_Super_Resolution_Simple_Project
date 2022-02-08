@@ -1,1 +1,1 @@
-# swinIR_Super_Resolution_simple_project
+# SwinIR_Super_Resolution_simple_project
