@@ -36,4 +36,4 @@ kaggle danbooru2020 dataset: https://www.kaggle.com/muoncollider/danbooru2020<br
 ### 확대 이미지
 |waifu2x(anotherSRmodel)|Low Resolution|High Resolution(2x)|
 |:--------:|:---------:|:---------|
-|<img src="https://user-images.githubusercontent.com/70330480/152936754-00a6100e-c658-4751-8b75-014bb1fa7b48.png" width="550">|<img src="https://user-images.githubusercontent.com/70330480/152936831-42807295-5cbf-489e-9612-e5a02c3dfd9b.png" width="900">|<img src="https://user-images.githubusercontent.com/70330480/152936872-2b5482cd-cb39-44fe-bd01-c787b4298864.png" width="800">|
+|<img src="https://user-images.githubusercontent.com/70330480/152936754-00a6100e-c658-4751-8b75-014bb1fa7b48.png" width="600">|<img src="https://user-images.githubusercontent.com/70330480/152936831-42807295-5cbf-489e-9612-e5a02c3dfd9b.png" width="900">|<img src="https://user-images.githubusercontent.com/70330480/152936872-2b5482cd-cb39-44fe-bd01-c787b4298864.png" width="800">|
