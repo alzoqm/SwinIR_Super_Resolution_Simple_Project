@@ -5,7 +5,7 @@
 ## Train Dataset 및 Model Parameter
 ### Train Dataset
 kaggle danbooru2020 dataset: https://www.kaggle.com/muoncollider/danbooru2020<br>
-* danbooru dataset의 경우 한 폴더에 모든 파일이 있는 것이 아닌 1, 2, 3과 같이 분할된 폴더에 2000~3000개씩 분할되어 있음
+* danbooru dataset의 경우 한 폴더에 모든 파일이 있는 것이 아닌 약 200개의 분할된 폴더에 2000~3000개씩 분할되어 있음
 * 이러한 점을 향후 ram 절약을 위해 활용함. (Training Method 참조)
 
 |parameter name|value|parameter name|value|
