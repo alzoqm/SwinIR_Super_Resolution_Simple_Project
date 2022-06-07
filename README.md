@@ -38,4 +38,5 @@ kaggle danbooru2020 dataset: https://www.kaggle.com/muoncollider/danbooru2020<br
 |:--------:|:---------:|:---------|
 |<img src="https://user-images.githubusercontent.com/70330480/152936754-00a6100e-c658-4751-8b75-014bb1fa7b48.png" width="600">|<img src="https://user-images.githubusercontent.com/70330480/152936831-42807295-5cbf-489e-9612-e5a02c3dfd9b.png" width="900">|<img src="https://user-images.githubusercontent.com/70330480/152936872-2b5482cd-cb39-44fe-bd01-c787b4298864.png" width="800">|
 
-* 모델의 계산 비용이 크기 때문에 비용을 줄일 수 있는 방법 구상중
+## 모델의 계산 비용이 크기 때문에 비용을 줄일 수 있는 방법 구상중
+학습시 mixed-precision 적용 및 배포를 위한 파라미터 양자화 기법 공부 중...
