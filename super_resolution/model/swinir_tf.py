@@ -350,7 +350,7 @@ class Upsample(tf.keras.Model):
       
     return x
 
-class swinIR(tf.keras.Model):
+class SwinIR(tf.keras.Model):
   def __init__(self, img_size=64, patch_size=1, in_chans=3, emb_size=180, depths=[6, 6, 6, 6], num_heads=[6, 6, 6, 6],
                window_size=7, mlp_ratio=4., qkv_bias=True, drop_rate=0., attn_drop_rate=0., drop_path_rate=0.1, ape=False, patch_norm=True,
                upscale=2, img_range=1., resi_connection='3conv', **kwargs):
@@ -479,7 +479,7 @@ IMG_RANGE = 255
 RESI_CONNECTION = '3conv'
 
 
-model = swinIR(IMG_SIZE, PATCH_SIZE, IN_CHANS, EMB_SIZE, DEPTHS, NUM_HEADS, WINDOW_SIZE, MLP_RATIO, QKV_BIAS, DROP_RATE, ATTN_DROP_RATE, DROP_PATH_RATE, APE, PATCH_NORM, UPSCALE, IMG_RANGE, RESI_CONNECTION)
+model = SwinIR(IMG_SIZE, PATCH_SIZE, IN_CHANS, EMB_SIZE, DEPTHS, NUM_HEADS, WINDOW_SIZE, MLP_RATIO, QKV_BIAS, DROP_RATE, ATTN_DROP_RATE, DROP_PATH_RATE, APE, PATCH_NORM, UPSCALE, IMG_RANGE, RESI_CONNECTION)
 
 x = tf.random.normal(shape=(1, 128, 128, 3))
 y = model(x)
