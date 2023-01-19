@@ -37,9 +37,3 @@ kaggle danbooru2020 dataset: https://www.kaggle.com/muoncollider/danbooru2020<br
 |waifu2x(anotherSRmodel)|Low Resolution|SwinIR High Resolution(2x)|
 |:--------:|:---------:|:---------|
 |<img src="https://user-images.githubusercontent.com/70330480/152936754-00a6100e-c658-4751-8b75-014bb1fa7b48.png" width="600">|<img src="https://user-images.githubusercontent.com/70330480/152936831-42807295-5cbf-489e-9612-e5a02c3dfd9b.png" width="900">|<img src="https://user-images.githubusercontent.com/70330480/152936872-2b5482cd-cb39-44fe-bd01-c787b4298864.png" width="800">|
-
-## 문제점
-1. 모델을 학습할 때는 모델의 크기가 너무 커서 64x64로 이미지를 잘라서 넣을 수 밖에 없는 문제가 발생함  
-2. TPU 이외의 환경에서 이미지 생성시 이미지가 깨지는 문제가 발생  
-* 이 문제를 해결하기 위한 방법을 찾는 것은 또 다른 과제  
-* 현재 학습시 mixed-precision 적용 및 배포를 위한 파라미터 양자화 기법 공부 중...
